@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    padding: 0.8em 3.3em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button {
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 24px;
+}
+
+a {
+    /* text-decoration: none; */
+    font-size: 14px;
+    font-weight: bolder;
+    color: #140a82;
+}
