@@ -1,0 +1,11 @@
+<section>
+    <div class="titre">
+        <img src="../../assets/logo-mini.png" alt="Step">
+        <h1>en quelques chiffres</h1>
+    </div>
+    <div class="cartes">
+        <div *ngFor="let num of chiffre">
+            <app-card3 [color]="num.color" [icone]="num.icone" [titre]="num.titre" [texte]="num.texte" [nombre]="num.nombre"></app-card3>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    border-top: 2px solid #dedce7;
+    padding: 3em 7em;
+}
+
+.align div {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    filter: brightness(0.7);
+}

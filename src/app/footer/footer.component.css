@@ -1,0 +1,59 @@
+footer {
+    background-color: #140a82;
+    margin: 0;
+    width: 100%;
+}
+
+section {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section h4 {
+    font-size: 1.5em;
+}
+
+section p {
+    font-size: 1em;
+}
+
+.copyright {
+    background-color: #140a82;
+    filter: brightness(0.7);
+    padding: 2em;
+}
+
+.navigation {
+    padding: 8em;
+    display: flex;
+    flex-direction: row;
+}
+
+.logos {
+    width: 17%;
+}
+
+.logos img {
+    width: 100%;
+    filter: brightness(100);
+}
+
+.minilogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.minilogos img {
+    filter: invert(1);
+    width: 20%;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}

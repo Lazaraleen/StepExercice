@@ -1,0 +1,41 @@
+.bulle {
+    border: 2px solid #dedce7;
+    padding: 3em 3em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bulle img {
+    width: 1.5em;
+    filter: invert(1);
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nombre {
+    font-size: 4em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.bullechiffre {
+    filter: brightness(100);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2em;
+}

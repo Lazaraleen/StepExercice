@@ -3,6 +3,12 @@ section {
     width:90%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.couleur {
+    background-color: #dedce7;
+    width: 1.5%;
 }
 
 button {
@@ -33,7 +39,18 @@ button {
 
 .soluceImage div {
     position: absolute;
-    bottom: 3em;
-    left: 3em;
+    bottom: 0;
+    left: 0;
+    margin: 3em;
     color: white;
+}
+
+.soluceImage img {
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 2em 2em 2px 1px rgba(0, 0, 255, .2);
+}
+
+.soluce {
+    width: 60%;
 }

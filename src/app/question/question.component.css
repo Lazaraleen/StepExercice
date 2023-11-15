@@ -1,0 +1,56 @@
+section {
+    margin: 5em 5em;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+
+p {
+    color: white;
+    filter: brightness(0.5);
+    margin: 3em 0;
+}
+
+div {
+    width:90%;
+    margin: 0 auto;
+    background-color: #140a82;
+    border-radius: 20px;
+    position: relative;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+    width: 25em;
+}
+
+button p {
+    filter: brightness(1);
+    color: white;
+    margin: 5px;
+}
+
+button img {
+    filter: invert(1);
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.hover {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 90%;
+}
