@@ -1,0 +1,15 @@
+<section>
+    <div class="titre">
+        <img src="../../assets/logo-mini.png" alt="Step">
+        <h1>c'est quoi ?</h1>
+    </div>
+    <div class="cartes">
+    <!-- <div class="cartes"> -->
+        <!-- <app-card2></app-card2>
+        <app-card2></app-card2>
+        <app-card2></app-card2> -->
+        <div *ngFor="let quoi of cquoi">
+            <app-card2 [titre]="quoi.titre" [texte]="quoi.texte"></app-card2>
+        </div>
+    </div>
+</section>

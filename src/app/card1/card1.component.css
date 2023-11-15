@@ -1,0 +1,41 @@
+section {
+    margin: 0 auto;
+    width:90%;
+}
+
+.choix {
+    display: flex;
+    justify-content: space-between;
+    height: 15em;
+    color: white;
+    width: 100%;
+}
+
+.taille {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.choix1 {
+    background-color: #140a82;
+    width: 48%;
+    border-radius: 20px;
+}
+
+.choix1 img {
+    width: 7em;
+    margin-right: 4em;
+}
+
+.choix2 {
+    background-image: url("../../assets/clavier.jpg");
+    width: 48%;
+    border-radius: 20px;
+}
+
+.choix2 img {
+    width: 7em;
+    margin-right: 4em;
+}

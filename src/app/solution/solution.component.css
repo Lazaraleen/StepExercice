@@ -1,0 +1,39 @@
+section {
+    margin: 3em auto;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: #00b0cc;
+}
+
+.leger {
+    color: #dedce7;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.serv {
+    display: flex;
+    flex-direction: row;
+}
+
+.serv p {
+    margin-right: 10px;
+}
+
+.soluceImage {
+    position: relative;
+}
+
+.soluceImage div {
+    position: absolute;
+    bottom: 3em;
+    left: 3em;
+    color: white;
+}
