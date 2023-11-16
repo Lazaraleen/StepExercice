@@ -1,0 +1,14 @@
+<section>
+    <div class="nav">
+        <div class="title">
+            <h1>Découvrez nos derniers</h1>
+            <h1><b>projets & cas d'études</b></h1>
+        </div>
+        <a href="">Voir tous les projets</a>
+    </div>
+    <div class="projets">
+        <div *ngFor="let proj of projets">
+            <app-cardprojet [image]="proj.image" [nom]="proj.nom" [texte]="proj.texte"></app-cardprojet>
+        </div>
+    </div>
+</section>

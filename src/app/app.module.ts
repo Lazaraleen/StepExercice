@@ -22,6 +22,9 @@ import { QuestionComponent } from './question/question.component';
 import { ChiffresComponent } from './chiffres/chiffres.component';
 import { Card3Component } from './card3/card3.component';
 import { EcoconceptComponent } from './ecoconcept/ecoconcept.component';
+import { ProjetsComponent } from './projets/projets.component';
+import { CardprojetComponent } from './cardprojet/cardprojet.component';
+import { CardpresentationComponent } from './cardpresentation/cardpresentation.component';
 
 const routes: Routes = [
   {
@@ -59,7 +62,10 @@ const routes: Routes = [
     QuestionComponent,
     ChiffresComponent,
     Card3Component,
-    EcoconceptComponent
+    EcoconceptComponent,
+    ProjetsComponent,
+    CardprojetComponent,
+    CardpresentationComponent
   ],
   imports: [
     BrowserModule,

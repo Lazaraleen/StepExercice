@@ -1,0 +1,99 @@
+section {
+    margin: 0 auto;
+    padding: 3em 0 5em 0;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    border-bottom: 1px solid #dedce7;
+}
+
+.photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.photoimg {
+    width: 65%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.economies {
+    position: absolute;
+    bottom: 0;
+    left: 2em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -0.5em 0.5em 10px 1px rgba(0, 0, 255, .2);
+}
+
+.economies div {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.economies h3 {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.economies h4 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.economies p {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.economies img {
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 10px;
+}
+
+.eco {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eco h1{
+    font-weight: normal;
+}
+
+.eco h1 b {
+    font-weight: bolder;
+}
+
+.colText {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4em;
+}
+
+button {
+    background-color: #140a82;
+    padding: 0 2em;
+    margin: 0;
+    width: auto;
+    height: 3em;
+}
+
+.question {
+    color: #140a82;
+    background-color: #dedce7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+}

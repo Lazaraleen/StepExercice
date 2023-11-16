@@ -1,0 +1,22 @@
+section {
+    margin: 3em auto;
+    width:90%;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2em;
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}

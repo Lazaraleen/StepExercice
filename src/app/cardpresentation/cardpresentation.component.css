@@ -1,0 +1,45 @@
+section {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tableau {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bleu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    width: 27%;
+    height: 100%;
+    background-color: #140a8281;
+    color: white;
+}
+
+.group {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 70%;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
