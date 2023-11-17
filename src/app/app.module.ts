@@ -25,6 +25,9 @@ import { EcoconceptComponent } from './ecoconcept/ecoconcept.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { CardprojetComponent } from './cardprojet/cardprojet.component';
 import { CardpresentationComponent } from './cardpresentation/cardpresentation.component';
+import { CardmissionsComponent } from './cardmissions/cardmissions.component';
+import { DecouverteComponent } from './decouverte/decouverte.component';
+import { CardmetierComponent } from './cardmetier/cardmetier.component';
 
 const routes: Routes = [
   {
@@ -65,7 +68,10 @@ const routes: Routes = [
     EcoconceptComponent,
     ProjetsComponent,
     CardprojetComponent,
-    CardpresentationComponent
+    CardpresentationComponent,
+    CardmissionsComponent,
+    DecouverteComponent,
+    CardmetierComponent
   ],
   imports: [
     BrowserModule,

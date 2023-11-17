@@ -1,3 +1,23 @@
 .missions {
     padding: 0 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descriptionSTEP {
+    margin: 3em auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3em;
+}
+
+.missioncard {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 90%;
+    gap: 2em;
+    margin: 0 auto 3em auto;
+    width: 90%;
 }

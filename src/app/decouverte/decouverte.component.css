@@ -1,0 +1,21 @@
+.decouvre {
+    margin: 3em auto 0 auto;
+    width: 90%;
+}
+
+.decouvre h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.double {
+    grid-column: 2 / 4;
+    border: 3px dashed #dedce7;
+    border-radius: 20px;
+}

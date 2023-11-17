@@ -1,0 +1,8 @@
+<section class="decouvre">
+    <h2>Découvrez nos métiers</h2>
+    <div class="wrapper" >
+        <div *ngFor="let decouverte of decouvertes" class={{decouverte.classe}}>
+            <app-cardmetier [photo]="decouverte.photo" [titre]="decouverte.titre" [texte]="decouverte.texte" [mini]="decouverte.mini" [classe]="decouverte.classe"></app-cardmetier>
+        </div>
+    </div>
+</section>

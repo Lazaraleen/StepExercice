@@ -1,3 +1,21 @@
 <section class="missions">
-    <app-cardpresentation></app-cardpresentation>
+    <app-cardpresentation [photo]="present.photo" [titre]="present.titre" [soustitre]="present.soustitre" [texte]="present.texte" [logo]="present.logo"></app-cardpresentation>
+    <div class="descriptionSTEP">
+        <p>
+            Implantée à Pau (Sud-Ouest), en Nouvelle-Aquitaine (France), <b>STEP</b> est une entreprise citoyenne et responsable qui mise sur l’humain et sa diversité. Expert du
+            traitement des flux documentaires et de l’environnement informatique associé, <b>STEP</b> s’est imposé, en une vingtaine d'années dans le domaine des <b>services
+            numériques</b> et accompagne aujourd’hui de grands comptes et de nombreuses PMEI. Elle démontre que la compétitivité et le développement de <b>services
+            innovants</b> à destination des professionnels (ingénierie informatique, gestion des flux documentaires…) riment avec insertion sociale et que la fracture numérique
+            n’est pas une fatalité.
+        </p>
+        <p>
+            Entreprise engagée en Nouvelle-Aquitaine, elle a su diversifier son offre au fil du temps et propose un modèle vertueux sur l’ensemble de ses <b>pôles d’activité</b> via
+            des solutions globales tout en ayant à coeur de promouvoir la responsabilité vis à vis du territoire, de la collectivité, ou des personnes aux parcours fragilisés qu’elle
+            rencontre et soutient, sans crainte d’associer compétitivité et offre de services. <b>STEP</b> , c’est plusieurs métiers dédiés, de la gestion des flux documentaires à la
+            formation au numérique, en passant par les <b>services de territoire</b>, le tout associé à des expertises pointues.
+        </p>
+    </div>
+    <div class="missioncard" *ngFor="let mission of missions">
+        <app-cardmissions [photo]="mission.photo" [titre]="mission.titre" [texte]="mission.texte"></app-cardmissions>        
+    </div>
 </section>
