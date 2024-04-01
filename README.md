@@ -38,6 +38,6 @@ Run `ng new nom-projet --no-standalone` for creating a new project single page.
 
 ## ☁️ Deploy
 
-`[ProjetAngular](https://step-exercice.vercel.app/)`
+[ProjetAngular]( https://step-exercice.vercel.app/ )
 
 
